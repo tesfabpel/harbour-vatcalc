@@ -13,8 +13,8 @@ Name:       harbour-vatcalc
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    VatCalc
-Version:    0.5
-Release:    1
+Version:    0.6
+Release:    2
 Group:      Qt/Qt
 License:    © 2014 TesX
 URL:        http://example.org/

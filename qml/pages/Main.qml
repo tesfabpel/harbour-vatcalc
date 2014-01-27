@@ -130,8 +130,8 @@ Page {
 							r = am + v
 						}
 						else {
-							v = am * 100 / (vat)
-							r = am - v
+							r = am * 100 / (100 + vat)
+							v = am - r
 						}
 						
 						resultTXT.text = r
