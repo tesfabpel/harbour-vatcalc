@@ -27,8 +27,8 @@ OTHER_FILES += \
     qml/pages/Main.qml \
     qml/harbour-vatcalc.qml \
     rpm/harbour-vatcalc.yaml \
-    rpm/harbour-vatcalc.spec \
     harbour-vatcalc.desktop \
     LICENSE.txt \
-    README.md
+    README.md \
+    rpm/harbour-vatcalc.spec
 
