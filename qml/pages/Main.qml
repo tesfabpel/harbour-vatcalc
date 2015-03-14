@@ -136,9 +136,9 @@ Page {
 						var vat = parseFloat(vatTXT.text);
 
 						//TODO: Make this work! :)
-						var locale = Qt.locale();
-						var am = Number.fromLocaleString(Qt.locale(), initial_amountTXT.text)
-						var vat = Number.fromLocaleString(Qt.locale(), vatTXT.text)
+						//var locale = Qt.locale();
+						//var am = Number.fromLocaleString(Qt.locale(), initial_amountTXT.text)
+						//var vat = Number.fromLocaleString(Qt.locale(), vatTXT.text)
 
 						if(isNaN(am) || isNaN(vat)) {
 							resultTXT.text = "";
