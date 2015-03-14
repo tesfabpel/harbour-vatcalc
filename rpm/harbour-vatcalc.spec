@@ -13,11 +13,11 @@ Name:       harbour-vatcalc
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    VatCalc
-Version:    0.6
-Release:    2
+Version:    1.0
+Release:    3
 Group:      Qt/Qt
-License:    © 2014 TesX
-URL:        http://example.org/
+License:    GPLv3
+URL:        https://github.com/tesfabpel/harbour-vatcalc
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-vatcalc.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -34,7 +34,7 @@ Easily calculate VAT with this app in a few taps.
 PS: This is a port to Sailfish from my Android App:
 https://play.google.com/store/apps/details?id=org.fabtek.vatutils
 
-I'm curious about this new OS!
+I am curious about this new OS!
 
 ;)
 

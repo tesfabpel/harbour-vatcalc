@@ -1,10 +1,10 @@
 Name: harbour-vatcalc
 Summary: VatCalc
-Version: 0.6
-Release: 2
+Version: 0.9
+Release: 3
 Group: Qt/Qt
-URL: http://example.org/
-License: "\xA9 2014 TesX"
+URL: https://github.com/tesfabpel/harbour-vatcalc
+License: GPLv3
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |-
@@ -14,7 +14,7 @@ Description: |-
   PS: This is a port to Sailfish from my Android App:
   https://play.google.com/store/apps/details?id=org.fabtek.vatutils
 
-  I'm curious about this new OS!
+  I am curious about this new OS!
 
   ;)
 Configure: none
